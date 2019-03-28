@@ -1,0 +1,49 @@
+---
+title: "Week 7.1 - Open Science Project"
+author: "Lucas Peinado Bruscato"
+date: "22/01/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Open Science Project
+
+## Q1) theoretical hypothesis
+
+Average rating for Adam Sandler movies are equal to the average rating for Ryan Gosling movies, comparing the last 25 movies they had performed. Will only be considered movies that weren't classified as "TV Series", "TV Movie", "Short", "Video short" or when appears "uncredited" about the performance of the actor in the movie.
+
+## Q2) dependent variables
+
+I will compare the ratings over the movies both actors performed and I will use a null-hypothesis significance testing (NHST), given I expect there will be a significant difference.
+
+## Q3) justify your sample size
+
+All the analysis will be done using 50 observations because this are the only data available for the hypothesis given.
+
+## Q4) specify the statistical test you will conduct
+
+I will use:
+
+- alpha level equals to 3%
+- one-sided test
+- statistical power of 90%
+
+## Q5) relevant statistics
+
+One Sample t-test
+data:  dataset %>% filter(actor == "Ryan Gosling") %>% select(rating)
+t = 7.0292, df = 24, p-value = 0.0000002877
+alternative hypothesis: true mean is not equal to 6
+95 percent confidence interval:
+ 6.745939 7.366061
+sample estimates:
+mean of x 
+    7.056 
+
+Statistical power = 100%
+
+As expected, the results where statistically significant cause the differences are high (assuming that one knows a little bit about movies rating).
+
