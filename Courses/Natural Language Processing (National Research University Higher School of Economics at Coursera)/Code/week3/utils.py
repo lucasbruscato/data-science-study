@@ -1,4 +1,3 @@
-
 import nltk
 import pickle
 import re
@@ -50,21 +49,13 @@ def load_embeddings(embeddings_path):
     ########################
     #### YOUR CODE HERE ####
     ########################
-    starspace_embeddings = {}######### YOUR CODE HERE #############
-    file = open(embeddings_path)
-    count = 0
 
-    for line in file:
-        count = count + 1
-        #if(count % 5000 == 0):
-        #    print(count)
-        line = line.strip().split('\t')
-        arr = np.array(line[1:], dtype = np.float32)
-        starspace_embeddings[line[0]] = arr
+    # remove this when you're done
+    raise NotImplementedError(
+        "Open utils.py and fill with your code. In case of Google Colab, download"
+        "(https://github.com/hse-aml/natural-language-processing/blob/master/project/utils.py), "
+        "edit locally and upload using '> arrow on the left edge' -> Files -> UPLOAD")
 
-    embeddings_dimension = starspace_embeddings[list(starspace_embeddings)[0]].shape[0]
-     
-    return starspace_embeddings, embeddings_dimension
 
 def question_to_vec(question, embeddings, dim):
     """Transforms a string to an embedding by averaging word embeddings."""
@@ -74,19 +65,12 @@ def question_to_vec(question, embeddings, dim):
     ########################
     #### YOUR CODE HERE ####
     ########################
-    result = np.zeros(dim)
-    
-    count = 0
-    words = question.split()
-    for word in question.split():
-        if word in embeddings:
-            count = count + 1
-            result = result + np.array(embeddings[word])
-            
-    if count > 0:
-        result = result / count
 
-    return result
+    # remove this when you're done
+    raise NotImplementedError(
+        "Open utils.py and fill with your code. In case of Google Colab, download"
+        "(https://github.com/hse-aml/natural-language-processing/blob/master/project/utils.py), "
+        "edit locally and upload using '> arrow on the left edge' -> Files -> UPLOAD")
 
 
 def unpickle_file(filename):

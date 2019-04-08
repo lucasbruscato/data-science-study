@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 import requests
 import time
 import argparse
@@ -7,8 +7,6 @@ import os
 import json
 
 from requests.compat import urljoin
-from utils import *
-from dialogue_manager import *
 
 
 class BotHandler(object):
@@ -63,7 +61,7 @@ class SimpleDialogueManager(object):
     This is the simplest dialogue manager to test the telegram bot.
     Your task is to create a more advanced one in dialogue_manager.py."
     """
-    print("Inside SimpleDialogueManager")
+    
     def generate_answer(self, question): 
         return "Hello, world!" 
         
@@ -86,9 +84,7 @@ def main():
     # This is the point where you plug it into the Telegram bot. 
     # Do not forget to import all needed dependencies when you do so.
     
-    #simple_manager = SimpleDialogueManager() 
-    simple_manager = DialogueManager(RESOURCE_PATH)
-    simple_manager.create_chitchat_bot()
+    simple_manager = SimpleDialogueManager()
     bot = BotHandler(token, simple_manager)
     
     ###############################################################
@@ -113,4 +109,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
