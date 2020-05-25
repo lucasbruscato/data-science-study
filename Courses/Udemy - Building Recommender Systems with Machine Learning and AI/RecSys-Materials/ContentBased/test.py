@@ -28,5 +28,10 @@ random.seed(0)
 # Load up common data set for the recommender algorithms
 (ml, evaluationData, rankings) = LoadMovieLensData()
 
-# Construct an Evaluator to, you know, evaluate them
-evaluator = Evaluator(evaluationData, rankings)
+#ml = MovieLens()
+genres = ml.getGenres()
+years = ml.getYears()
+mes = ml.getMiseEnScene()
+
+print(genres)
+
