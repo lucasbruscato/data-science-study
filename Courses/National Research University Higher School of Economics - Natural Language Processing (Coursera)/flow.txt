@@ -1,0 +1,25 @@
+
+=== NLP DeepIn ===
+
+main approaches:
+1) rule based methods
+2) probabilistic modeling and ml
+3) deep learning
+
+week1 - text classification (predict tags, sentiment and filter spam e-mails)
+
+week2 - predict word sequences (part-of-speech tags, named entities, semantic slots)
+
+week3 - represent a meaning (word embeddings, sentence embeddings, topic models)
+
+week4 - sequence to sequence task (machine translation, summarization/simplification, conversational chat-bot)
+
+week5 - dialogue systems
+
+== week1 ==
+
+
+
+
+
+
