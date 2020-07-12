@@ -1,0 +1,10 @@
+
+Certificate link
+https://aws.amazon.com/pt/certification/certified-machine-learning-specialty/
+
+Amazon SageMaker
+https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+
+Useful links
+https://medium.com/slalom-data-analytics/passing-the-aws-machine-learning-specialty-certification-35c05b0907f8
+https://towardsdatascience.com/five-tips-for-passing-the-aws-machine-learning-specialty-exam-a2977654d324
