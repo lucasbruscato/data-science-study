@@ -1,0 +1,8 @@
+1) A citation to the website from which you downloaded the data.
+
+The dataset was collected from www.imdb.com, on January 20 of 2019. The information is public and can easily be downloaded.
+To read the data using R, for example, it can be used the following code:
+
+teste = read.csv('Week_7_1_database.csv', ';', header = TRUE)
+
+This is a new dataset, so a DOI won't be needed.
