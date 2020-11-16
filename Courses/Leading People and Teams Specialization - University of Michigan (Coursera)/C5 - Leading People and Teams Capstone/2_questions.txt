@@ -4,11 +4,33 @@ Theme 1: Inspiring and Motivating Individuals
 Question 1.1
 Describe a situation when you encountered a demotivated, disengaged employee. What did you do to address the situation and evaluate the outcome of your approach?
 
+When I joined the team, there were several data scientists (my direct reports) extremely demotivated, and the main reason was caused by them not performing data science work, they were mainly doing software engineer work, such as programming in Java and building code for the credit policy. My first action was to establish a line with the lead of engineering so the data scientist could stop (or reduce drastically) this type of work. Then I started to show them (the data scientists) the huge meaning and impact of their work, how their work (to create statistical models) was going to directly impact and drive the results of the company. As soon as the data scientist had this change in the scope and started to have more control and autonomy on their work, the overall morale of the team was improved.
+
+To evaluate and make a concrete plan, I started to use SMART methodology (specific, measurable, agreed-upon, reasonable, time-bound), thus, having a well more structured and defined way of establishing our goals, evaluating them and making people part of the decisions made during planning.
+
+
+demotivated by different activities
+- meaning in the work and control/autonomy
+- set goals using SMART (specific, measurable, agreed-upon, reasonable, time-bound)
+
+
 
 Theme 2: Managing Talent
 
 Question 2.6
 We have a team member who needs coaching. How would you engage this person to help them improve their performance?
+
+The first thing I would do is ask her/him what she/he thinks it should be improved, and from there start the discussions about, for example, work on strengths to get even better OR work on weaknesses to make them their strengths too.
+Second I would try a structured reflection, therefore, give feedbacks very close to related events and endorse the learn by doing behaviour if that's the way the person would like to tackle the performance improvement (it's well known that in case it's the field of work of the employee, usually there is a huge improvement using this technique).
+
+
+first ask the person where he/she thinks there is room for improvement
+- work on strengths to get even better OR work on weaknesses to make them your strengths too?
+- structured reflection
+    - close to the event make feedbacks or suggestion on what to do
+    - have a structured plan
+- endorse the behaviour of learn by doing
+
 
 
 Theme 3: Influencing People
@@ -16,11 +38,32 @@ Theme 3: Influencing People
 Question 3.4
 When was the last time you had to influence your superior? What did you do to be effective in that situation?
 
+I had to convince the director to approve the usage of a certain risk model. At first he was concerned about the confidence of the model, I worked on two perspectives. The first is the business one, that is to show him what a unique opportunity we were having to gain more market (better model, better acceptance rate and new prospect clients). The second is the technical one, thus showing how well fundamented were the model and the performance evaluate in test data. I anchored this topic days prior to the decision meeting, always remembering him how good the model was and giving stories from different areas of the company that took similar decisions and how they did it.
+
+
+
+
+to approve the usage of a certain risk model
+- unique opportunity to gain market
+- tried to use stories over examples of concrete cases being evaluated by the model
+- anchoring
+
+
+
+
 
 Theme 4: Managing Teams
 
-Question 4.5
-How could you improve the creativity of your team?
+Question 4.4
+How did you leverage diversity on your teams? 
 
+My current company is very diverse when it comes to nationalities (we currently have 92 different nationalities within the 3 thousand employees), but to leverage even more, I used the argument that every time you hire someone with a different background and experience, the person is going to aggregate with different points of view. Furthermore, I usually follow the support cooperation way of working and influence my team to do the same, mainly for two reasons: the first is that the team ends usually very integrated (for a very diverse team, that's fundamental), and the second is that when doing this, it automatically helps to improve transactive memory within the team. So, the way I see it, is a win-win action!
+
+
+
+
+company is very diverse, 92 nationalities, and I like to maintain this distribution
+- try to make it diverse to have different experiences and points of view
+- support cooperation because I believe this helps to improve transactive memory
 
 
